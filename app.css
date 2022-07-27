@@ -1,0 +1,43 @@
+body{
+    background-color: teal;
+}
+*{
+    box-sizing :border-box;
+    color:green;
+}
+.container{
+    margin:auto;
+    width:50%;
+    padding: 50px;
+    background-color:white;
+    box-shadow: 20px 20px 20px 0px  rgba(0,0,0,0.7);
+
+}
+input[type='text'],
+input[type='password'] {
+    width: 100%;
+    padding: 15px;
+    margin: 50px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: whitesmoke;
+}
+input[type='text']:focus,
+input[type='password'] focus {
+    background-color: white;
+    outline:none;
+}
+.registerbtn{
+    background-color: lightseagreen;
+    padding:16px;
+    color:white;
+    border:none;
+    cursor:pointer;
+    opacity:.8;
+    width:100%;
+    margin:auto
+
+}
+.registerbtn:hover{
+    opacity:1.5;
+}
